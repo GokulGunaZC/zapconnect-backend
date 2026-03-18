@@ -6,7 +6,7 @@ A scalable backend system for a social collaboration platform where users can cr
 
 ## Features
 
-- User Authentication (JWT आधारित security)
+- User Authentication (JWT security)
 - Post creation and discovery
 - Tag-based filtering
 - Responses to posts
