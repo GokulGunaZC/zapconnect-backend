@@ -1,10 +1,10 @@
-# 🚀 ZapConnect Backend
+# ZapConnect Backend
 
 A scalable backend system for a social collaboration platform where users can create posts, respond, tag interests, and form groups with real-time chat.
 
 ---
 
-## 📌 Features
+## Features
 
 - User Authentication (JWT आधारित security)
 - Post creation and discovery
@@ -17,7 +17,7 @@ A scalable backend system for a social collaboration platform where users can cr
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 - Java (Spring Boot)
 - PostgreSQL
@@ -26,15 +26,3 @@ A scalable backend system for a social collaboration platform where users can cr
 - Swagger & Postman (API Testing)
 
 ---
-
-## 🧩 Database Design
-
-### 👤 USERS
-```sql
-id BIGSERIAL PRIMARY KEY
-name VARCHAR(100)
-email VARCHAR(150) UNIQUE NOT NULL
-password VARCHAR(255)
-latitude FLOAT
-longitude FLOAT
-created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
